@@ -135,6 +135,15 @@ nav a:hover,
 nav li.active a
  {color: var(--branding-color);}
 
+ /* Header Bootstrap */
+.active {color: var(--branding-color) !important}
+
+.nav-item {
+  padding: 0 10px;
+  
+}
+/* Header Bootstrap */
+
 @media (max-width: 900px) {
   h1 {
     font-size: 50px;
