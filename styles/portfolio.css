@@ -143,6 +143,34 @@ nav li.active a
   
 }
 /* Header Bootstrap */
+footer {
+  margin: 60px 0;
+}
+
+footer .email-link {text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.5;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .sicial-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 13px;
+  font-size: 18px;
+  line-height: 1.17;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .sicial-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
 
 @media (max-width: 900px) {
   h1 {
