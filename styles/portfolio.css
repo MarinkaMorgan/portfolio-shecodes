@@ -97,7 +97,12 @@ p {
   font-size: 18px;
   line-height: 1.5;
   padding: 18px 46px;
+  text-decoration: none;
 }
+.btn-branding:hover, .btn-branding:focus {
+   background: var(--branding-color);
+}
+
 
 .btn-branding-outline {
   color: var(--branding-color);
@@ -106,6 +111,10 @@ p {
   padding: 18px 30px;
   font-size: 16px;
   line-height: 1.5;
+  text-decoration: none;
+}
+.btn-branding-outline:hover, .btn-branding-outline:focus {
+   border: 1px solid var(--branding-color);
 }
 
 .project-description {
