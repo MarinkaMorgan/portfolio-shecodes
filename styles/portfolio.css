@@ -44,7 +44,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .hero p {
   color: var(--main-text-color);
@@ -63,7 +63,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -199,9 +199,7 @@ footer .sicial-links a:hover {
     font-size: 26px;
   }
 
-  .hero {
-    padding: 80px 20px;
-  }
+  
   .project-description {
     padding: 0;
     text-align: center;
